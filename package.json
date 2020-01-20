@@ -1,0 +1,35 @@
+{
+  "name": "vue-parcel-starter",
+  "version": "1.0.0",
+  "description": "Vue.js starter kit with Parcel + Typescript",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "clean": "rm -rf .cache && rm -rf dist",
+    "prestart": "npm run clean",
+    "prebuild": "npm run clean",
+    "start": "parcel ./src/index.html"
+  },
+  "keywords": [
+    "vue",
+    "parcel",
+    "typescript"
+  ],
+  "author": "Ryan Pagaduan - Starter Pack by Devon Bellizio",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "vue": "^2.5.16",
+    "vue-class-component": "^6.2.0",
+    "vue-fragment": "^1.5.1",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.9.4",
+    "typescript": "^2.9.1",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
