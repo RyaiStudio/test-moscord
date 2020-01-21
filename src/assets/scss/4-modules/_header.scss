@@ -1,0 +1,23 @@
+.framework-box--container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+
+  .f-item {
+    height: 75px;
+    flex-basis: 75px;
+    position: relative;
+
+    &.x2 {
+      flex-basis: 150px;
+    }
+
+    .image {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

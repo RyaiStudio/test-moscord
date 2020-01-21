@@ -1,31 +1,33 @@
-# Vue.js Parcel Starter
 
-A Vue.js starter kit with [Parcel](https://parceljs.org/) + Typescript
+# Bulma + Vue.js + Parcel + Typescript - News Articles
 
-## Getting Started
-
+  
 ### Dependencies
 
-* [Node](https://nodejs.org/) (>= 8.9.0)
-* [Yarn](https://yarnpkg.com/en/)
-* [Parcel](https://parceljs.org/)
+*  [Node](https://nodejs.org/)
 
-### Setup
 
-1.  `git clone https://github.com/bellizio/vue-parcel-starter.git`
-1.  `cd vue-parcel-starter`
-1.  `yarn install`
+### Test 1 & Test  2 - Script
 
-## Overview
+* `node test-one.js`
+*  `node test-two.js`
 
-This is a Vue.js start kit with Parcel + Typescript. It includes hot module reloading for development and sass for css.
+### Setup for News Articles
 
-## Scripts
+1.  `git clone https://github.com/RyaiStudio/test-moscord.git`
+
+1.  `cd test-moscord`
+
+1.  `npm install`
 
 ### Development
 
-`npm start` - builds and serves the app at localhost:1234
+  
+`npm start` - builds and serves the app at `localhost:1234`
+
 
 ### Production
-
+  
 `npm run build` - builds the app for production
+  
+  
